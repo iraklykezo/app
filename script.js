@@ -1,7 +1,7 @@
 const levels = [
-    { answer: 'lego', video: 'cube.mp4' },
-    { answer: 'cube', video: 'planet.mp4' },
-    { answer: 'planet', video: '' } 
+    { answer: 'saturn', video: 'spin.mp4' },
+    { answer: 'germany', video: 'german.mp4' },
+    { answer: 'chip', video: 'chip.mp4' } 
 ];
 
 
