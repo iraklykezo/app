@@ -1,8 +1,9 @@
 const levels = [
-    { answer: 'saturn', video: 'spin.mp4' },
-    { answer: 'germany', video: 'german.mp4' },
-    { answer: 'chip', video: 'chip.mp4' } 
+    { answer: 'saturn', video: 'german.mp4' },
+    { answer: 'germany', video: 'chip.mp4' },
+    { answer: 'chip', video: '' } 
 ];
+
 
 
 function check(event) {
@@ -12,7 +13,7 @@ function check(event) {
     const inputValue = event.target.userAnswer.value;
     const video = document.getElementById('videoPlayer');
     const currentLevel = Number(level.value) - 1;
-
+    console.log(currentLevellevels[currentLevel]);
     if (currentLevel < levels.length && inputValue == levels[currentLevel].answer) {
         alert("Answer correct");
         score.value = Number(score.value) + 1;
